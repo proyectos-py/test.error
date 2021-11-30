@@ -1,0 +1,14 @@
+Package: test.error
+Title: Two-sample test for the error distribution in nonparametric regression based on the characteristic function.
+Version: 1.0.0
+Authors: Gustavo Ignacio Rivas Martínez
+co-Authors: Oscar González Frutos
+Maintainer: <gonzalezfrutos@mec.edu.py>
+Description: A test for the equality of error distributions in two nonparametric regression models is proposed. The test statistic is based on comparing the empirical characteristic functions of the residuals calculated from independent samples of the models. The asymptotic null distribution of the test statistic cannot be used to estimate its null distribution because it is unknown, since it depends on the unknown common error distribution. To approximate the null distribution, a weighted bootstrap estimator is studied, providing a consistent estimator. The finite sample performance of this approximation as well as the power of the resulting test are evaluated by means of a simulation study. The procedure can be extended to testing for the equality of d > 2 error distributions.
+License: GLP-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
